@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 7px 10px rgba(99, 97, 97, 0.5);
+
+
+}
+.nav-logo .image {
+    width: 170px;
+    color:  #c37b10;
+    margin-left: 80%;
+    
+
+}
+.navbar .nav-link{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20% 0px ;
+    margin: 0px 30px;
+
+}
+.nav-link a{
+    width: 60px;
+    padding: 15px 20px;
+    margin-left: 20px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif Courier, monospace;
+    color: rgb(79, 77, 77) ;
+    margin-left: 40px;
+}
+.angle{
+    width: 18px;
+    height: 19px;
+    margin-left: 6px;
+}
+.select.car {
+    width: 12px;
+}
+
+.post-ad{
+    border: none;
+    background:  #c37b10;
+    padding: 15px 12px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 180px;
+    font-weight: 600;
+    width: 160px;
+    font-size: 16px;
+}
+.action i{
+    margin-right: 5px;
+}
+
+.icon{
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+}
+.icon i{
+    margin-left: -10px;
+    font-size: 25px;
+}
+a .btn{
+    width: 80px;
+    height: 30px;
+    border: none;
+    margin-left: -4em;
+    font-weight: 600;
+    color: rgb(72, 71, 71);
+    font-size: 17px;
+    background-color: white;
+}
+.full-image {
+    margin: 2px;
+
+}
+.text{
+    display: inline-flex;
+    align-items: center;
+    line-height: none;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.text h1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+
+}
+.text .condition{
+background:  #c37b10;
+border: none;
+padding: 10px 15px;
+color: white;
+font-weight: 700;
+}
+.text a{
+    margin: 20px;
+    align-items: center;
+    align-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(74, 72, 72);
+    
+}
+.options{
+    width: 85%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0px 0px 0px 7% ;
+
+}
+    
+.options .value1{
+    width:300px;
+    height: 80px;
+    background-color: whitesmoke;
+    align-content: center;
+    font-weight: 600;
+    padding: 0px 15px;
+    border: 1px solid;
+    border-color: rgb(221, 217, 213);
+
+}
+.options .value2{
+    width:300px;
+    height: 80px;
+    background-color: whitesmoke;
+    align-content: center;
+    font-weight: 600;
+    padding: 0px 15px;
+    border: 1px solid;
+    border-color: rgb(221, 217, 213);
+
+}
+.options .value3{
+    width:300px;
+    height: 80px;
+    background-color: whitesmoke;
+    align-content: center;
+    font-weight: 600;
+    padding: 0px 15px;
+    border: 1px solid;
+    border-color: rgb(221, 217, 213);
+
+
+}
+.options .value4{
+    width:300px;
+    height: 80px;
+    background-color: whitesmoke;
+    align-content: center;
+    font-weight: 600;
+    padding: 0px 15px;
+    border: 1px solid;
+    border-color: rgb(221, 217, 213);
+
+
+}
+.options .value5{
+    width:250px;
+    height: 80px;
+    background:  #c37b10;
+    align-content: center;
+    font-weight: 600;
+    padding: 0px 80px;
+    color: white;
+}
+.options span {
+    font-weight: 100;
+    color: rgb(105, 102, 102);
+    font-size: 13px;
+}
+.tag {
+    transform: translatex(12rem);
+}
+.advance {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 70px 50px;
+
+}
+.advance h1{
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: 35px;
+    align-content: center;
+    transform: translateX(-23em);
+
+}
+.advance p{
+    font-size: 18px;
+    color: rgb(18, 17, 17);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: 450;
+    transform: translateX(19em);
+
+}
+.advan{
+    width: 19px;
+    transform: translatey(3px);
+}
+.reset {
+    transform: translatey(1px);
+    font-weight: 900px;
+    margin-right: 6px;
+
+}
+.pile {
+    margin-left: 5%;
+
+}
+.set-car {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.set-car h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-left: 55px;
+    font-size: 27px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    transform: translateX(-11.5em);
+
+}
+
+.set-car p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right:60px;
+    font-size: 20px;
+    color: #c37b10;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    transform: translateX(27em);
+
+}
+
+.jpg{
+    border-radius: 12px;
+    width: 230px;
+    height: 170px;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius: 0;
+    margin-bottom: 5px;
+    margin-top: -29px;
+}
+
+.span-all{
+    margin: 5px 20px;
+}
+.grid-car .mercedes{
+ line-height: 1.2;
+ font-size: 20px;
+ font-weight: 900;
+    
+}
+.auto{
+    font-size: 12px;
+    margin-left: 10%;
+    color: rgb(107, 104, 104);
+    padding: 10px;
+}
+.year{
+ font-size: 12px;
+ color: rgb(107, 104, 104);
+
+}
+.money{
+    position: relative;
+    font-size: 18px;
+    top: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: rgb(234, 57, 57);
+}
+.all-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30%;
+
+}
+.car{
+    background-color:whitesmoke;
+    width: 230px;
+    height: 290px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 20px;
+    box-shadow: 0px 7px 10px rgba(99, 97, 97, 0.5);
+
+}
+.grid-car4{
+    margin-right: 25px;
+}
+.grid-car5{
+    margin-right: 25px;
+}
+.width-car{
+    width: 90vw;
+    height: 100%;
+    transform: translatey(5em);
+    margin: 0px 80px;
+
+}
+.motor-width{
+    width: 80%;
+    height: 100%;
+}
+.image-container{
+ position: relative;
+ width: 100%;
+ display: flex;
+ top: 150px;
+}
+.types{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.types h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',;
+    color: rgba(3, 3, 51, 0.758);
+    transform: translatex(-12em);
+
+}
+.types p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(5, 5, 42, 0.699);
+    transform: translatex(16em);
+    font-weight: 500;
+    font-size: 19px;
+
+
+}
+
+ .why{
+    position: absolute;
+    transform: translatey(18em);
+    width: 90%;
+    color: rgb(42, 40, 40);
+
+ } 
+ .why-text{
+    margin-left: 4%;
+    transform: translatey(2em);
+ }  
+ .sign .why1{
+ color: rgb(229, 223, 223);
+
+ }
+.why-all{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    margin: 60px 5%;
+    width: 75%;
+}
+.why-all .sign{
+    display: flexbox;
+
+}
+.best {
+    font-weight: bold;
+    font-size: 20px;
+    padding:0px 70px;
+    margin-bottom: 10px;
+
+}
+.best2{
+    transform: translatey(-7em);
+    width: 109%;
+    color: rgba(69, 67, 70, 0.959);
+
+}
+.why-span{
+    padding:0px 60px;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+
+.why2{
+width: 60px;
+height: 65px;
+margin-top: 30px;
+transform: translatey(1em);
+
+}
+.dollar-both .why1{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 60px;
+ transform: translatey(27px);
+ margin-left: 15px;
+
+}
+.fast{
+    font-weight: bold;
+    font-size: 20px;
+    padding:0px 75px;
+    margin-bottom: 10px;
+}
+.fast2{
+    transform: translatey(-8em);
+    width: 150%;
+    margin-left: 40px;
+    color: rgba(69, 67, 70, 0.959);
+}
+.why3{
+width: 60px;
+height: 65px;
+margin-top: 30px;
+transform: translatex(2.5em);
+
+}
+.why4{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 66px;
+ transform: translatex(6%);
+ margin-left: 15px;
+ color: rgb(229, 223, 223);
+ margin-top: 2;
+
+}
+
+.section-page{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+
+
